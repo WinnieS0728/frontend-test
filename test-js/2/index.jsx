@@ -1,6 +1,7 @@
 // import { getMonthSale } from "./promise";
 
 export default function JS_2() {
+  // 請在這個 function 內作答
   return (
     <h3>
       <p>請使用 getMonthSale 這個 function 來寫以下題目。</p>
