@@ -11,10 +11,10 @@ export async function getMonthSale({ YY, MM }) {
         case !YY && !MM:
           resolve(dataSet);
           break;
-        case !!YY && !MM:
+        case !YY && !!MM:
           resolve(dataSet.filter((data) => data.YY === YY));
           break;
-        case !YY && !!MM:
+        case !!YY && !MM:
           resolve(dataSet.filter((data) => data.MM === MM));
           break;
         case !!YY && !!MM:
